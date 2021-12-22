@@ -4,19 +4,22 @@ A Process Scheduler schedules different processes to be assigned to the CPU base
 **Shortest Remaining Time First (SRTF)** is the preemptive version of **Shortest Job Next (SJN)** algorithm, where the processor is allocated to the job closest to completion. 
 
 **Algorithm**:
-1- Traverse until all process gets completely
-   executed.
-   a) Find process with minimum remaining time at
-     every single time lap.
-   b) Reduce its time by 1.
-   c) Check if its remaining time becomes 0 
-   d) Increment the counter of process completion.
-   e) Completion time of current process = 
-     current_time +1;
-   e) Calculate waiting time for each completed 
-     process.
-   wt[i]= Completion time - arrival_time-burst_time
-   f)Increment time lap by one.
+
+1- Traverse until all process gets completely executed.
+      a) Find process with minimum remaining time at every single time lap.
+   
+      b) Reduce its time by 1.
+   
+      c) Check if its remaining time becomes 0 
+   
+      d) Increment the counter of process completion.
+   
+      e) Completion time of current process = current_time +1;
+   
+      f) Calculate waiting time for each completed process.
+         wt[i]= Completion time - arrival_time-burst_time
+   
+      g)Increment time lap by one.
 2- Find turnaround time,waiting time and response time.
    
 **Advantages**: 
