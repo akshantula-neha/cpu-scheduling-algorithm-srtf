@@ -31,7 +31,7 @@ The context switch is done a lot more times in SRTF than in SJN, and consumes CP
 **Example:**
  Suppose we have the following 3 processes with process ID's P1, P2, and P3 and they arrive into the CPU in the following manner: 
  
-![image](https://user-images.githubusercontent.com/90513459/147102810-51cf42c0-580f-4f5c-8e21-67786241ea5b.png
+![image](https://user-images.githubusercontent.com/90513459/147379209-862ac66f-bdc7-49ad-bf12-c78fe6eb62ad.png)
 
 Gant Chart:
 
