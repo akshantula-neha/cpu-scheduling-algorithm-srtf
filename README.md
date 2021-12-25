@@ -61,3 +61,4 @@ SRJF algorithm
     Average Waiting Time = Total Waiting Time / Total No. of Processes
                 = 5 / 3
                 = 1.67 milliseconds
+                 
