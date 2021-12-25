@@ -41,7 +41,7 @@ int main()
       }
       average_waiting_time = wait_time / limit; 
       average_turnaround_time = turnaround_time / limit;
-      printf("nnAverage Waiting Time:t%lfn", average_waiting_time);
-      printf("Average Turnaround Time:t%lfn", average_turnaround_time);
+      printf("\nAverage Waiting Time:%lf", average_waiting_time);
+      printf("\nAverage Turnaround Time:tlf", average_turnaround_time);
       return 0;
 }
