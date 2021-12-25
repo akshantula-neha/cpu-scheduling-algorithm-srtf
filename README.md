@@ -62,3 +62,6 @@ SRJF algorithm
                 = 5 / 3
                 = 1.67 milliseconds
                  
+**OUTPUT**
+![Screenshot (3)](https://user-images.githubusercontent.com/90513459/147379166-e991dbad-33d8-4539-a4f8-5ff84e7301a2.png)
+
